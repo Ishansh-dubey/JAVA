@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+public class CalculatingAge {
+ 
+   }
+   public static void main(String args[]) {
+      
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter your name: ");
+      String name = sc.next();
+      System.out.println("Enter your date of birth (dd-MM-yyyy): ");
+      int dob = sc.next();
+      
+     
+      Period period = Period.between(givenDate, LocalDate.now());
+      System.out.print("Hello "+name+" your current age is: ");
+      System.out.print(period.getYears()+" years "+period.getMonths()+" and "+period.getDays()+" days");
+   }
+}
