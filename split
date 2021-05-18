@@ -1,0 +1,37 @@
+public class split {
+
+	public static void main(String[] args) {
+		String nam = "hi-eshans";
+		
+		
+		
+	//	String nam_arr[] = nam.split("-");
+	//	String name = nam_arr[1];
+		
+	//		String nam_arr[] = nam.split("i");
+	//	String name = nam_arr[1];
+	
+	//String nam_arr[] = nam.split("h");
+	//	String name = nam_arr[1];
+		
+	//	String nam_arr[] = nam.split("$");
+	//	String name = nam_arr[1];
+		
+	//	String nam_arr[] = nam.split("i");
+	//	String name = nam_arr[0];
+		
+	//	String nam_arr[] = nam.split("+");
+	//	String name = nam_arr[1];
+		
+	//	String nam_arr[] = nam.split("+");
+	//	String name = nam_arr[0];
+	
+	//String nam_arr[] = nam.split("4");
+	//	String name = nam_arr[1];
+	
+	String nam_arr[] = nam.split("-");
+		String name = nam_arr[0];
+		
+		System.out.println(name);
+	}
+}
