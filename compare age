@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class CalculateAge {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("user1: ");
+		int age = sc.nextInt();
+		
+		
+		System.out.println("user2: ");
+		int age = sc.nextInt();
+		
+		if(user1>user2)
+		System.out.print("user1 is elder then user2");
+      }else if( user1 == user2 ) {
+         System.out.print("both have same age");
+      }else {
+         System.out.print("user1 1 is younger then user2");
+      }
+	}
+}
