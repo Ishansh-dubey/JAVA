@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class CalculateAge {
+
+	public static void main(String[] args) {
+		String name = "";
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your name: ");
+		name = sc.next();
+		
+		
+		System.out.println("Enter your DOB(yyyy-mm-dd): ");
+		String dob = sc.next();
+		
+		String dob_arr[] = dob.split("-");
+		String year = dob_arr[0];
+		
+		int dob_int = Integer.parseInt(year);
+		
+		int age = 2021 - dob_int;
+		System.out.print("Hello "+name+" your current age is: ");
+		System.out.print(age);
+	}
+}
