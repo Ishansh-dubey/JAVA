@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+        Scanner sc = new Scanner(System.in);
+		
+		System.out.println("month: ");
+		int x = sc.nextInt();
+		
+		if(x==1){
+		System.out.print("January");
+     }	if(x==2){
+		System.out.print("February");
+     }	if(x==3){
+		System.out.print("March");
+     }	if(x==4){
+		System.out.print("April");
+     }	if(x==5){
+		System.out.print("May");
+     }	if(x==6){
+		System.out.print("June");
+     }	if(x==7){
+		System.out.print("July");
+     }	if(x==8){
+		System.out.print("August");
+     }	if(x==9){
+		System.out.print("September");
+     }	if(x==10){
+		System.out.print("October");
+     }	if(x==11){
+		System.out.print("November");
+     }	if(x==12){
+		System.out.print("December");
+     }	if(x > 12){
+		System.out.print("This month does not exist");
+     }
+		
+		
+	
+     }
+}
