@@ -1,0 +1,13 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+         int a = 2;
+         int b = 8;
+         int c = 1;
+        
+         int sum = (a == b) ? (a + b): ((b == c) ? b + c ) : ((a == c) ? a + c) : 0;
+         
+          System.out.println("Result = " + sum);
+     }
+}
