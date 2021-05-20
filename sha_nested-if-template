@@ -1,0 +1,23 @@
+public class Practice{
+
+     public static void main(String []args){
+        
+       if (x == 1) {
+        	// true of x
+        	if(y == 1) {
+        		//true of x and y
+        	}else {
+        		//false of y and true of x
+        	}
+        }else {
+        	//false of x
+        	if (y == 1) {
+        		//true of y, false of x
+        	}else {
+        		//false of x, false of x
+        	}
+        }
+        
+        
+     }
+}
