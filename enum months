@@ -1,0 +1,26 @@
+public class HelloWorld{
+    
+    enum month{
+        1,
+        2,
+        3
+	
+	}
+	
+	public static void main(String []args){
+	    
+    	 
+    	 
+    	 month a = month.1;
+    	 
+    	 if (a == month.1) {
+    		 System.out.println("January");
+    	 }else if(a == 2) {
+    		 System.out.println("February");
+    	 }else if(a == 3) {
+    		 System.out.println("March");
+    	 }
+
+    
+     }
+}
