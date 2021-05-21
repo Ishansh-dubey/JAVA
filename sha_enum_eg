@@ -1,0 +1,27 @@
+package stringDemo;
+import java.util.Scanner;
+
+public class Practice{
+
+	enum bottle{
+		water,
+		juice,
+		milk;
+	}
+	
+     public static void main(String []args){
+        
+    	 System.out.println(bottle.juice.ordinal());
+    	 
+    	 
+//    	 bottle b = bottle.juice;
+//    	 
+//    	 if (b == bottle.water) {
+//    		 System.out.println("we have water");
+//    	 }else if(b == bottle.juice) {
+//    		 System.out.println("we have juice");
+//    	 }else if(b == bottle.milk) {
+//    		 System.out.println("we have milk");
+//    	 }
+     }
+}
