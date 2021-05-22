@@ -1,0 +1,17 @@
+package stringDemo;
+import java.util.Scanner;
+
+public class Practice{
+
+	
+	public static void main(String []args){
+
+		String str = "Here is my password: ksjfoiwe";
+		
+		
+		String password_str = str.split(":")[1];
+		String trimmed_pass = password_str.trim();
+		
+		System.out.println(trimmed_pass);
+	}
+}
