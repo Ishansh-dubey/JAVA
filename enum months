@@ -1,25 +1,56 @@
+import java.util.Scanner;
 public class HelloWorld{
     
     enum month{
-        1,
-        2,
-        3
+        One, 
+        Two, 
+        Three, 
+        Four, 
+        Five, 
+        Six, 
+       Seven,
+       Eight,
+       Nine,
+       Ten,
+       Eleven, 
+       Twelve; 
 	
 	}
 	
 	public static void main(String []args){
 	    
+    	   Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter your month no. in word: ");
+		String a = sc.next();
     	 
+    // 	 month a = month.Six;
     	 
-    	 month a = month.1;
-    	 
-    	 if (a == month.1) {
-    		 System.out.println("January");
-    	 }else if(a == 2) {
-    		 System.out.println("February");
-    	 }else if(a == 3) {
-    		 System.out.println("March");
-    	 }
+    	 if (a == month.One) {
+    		 System.out.println("January");}
+    // 	 }else if(a == month.Two) {
+    // 		 System.out.println("February");
+    // 	 }else if(a == month.Three) {
+    // 		 System.out.println("March");
+    // 	 }else if(a == month.Four) {
+    // 		 System.out.println("April");
+    // 	 }else if(a == month.Five) {
+    // 		 System.out.println("May");
+    // 	 }else if(a == month.Six) {
+    // 		 System.out.println("June");
+    // 	 }else if(a == month.Seven) {
+    // 		 System.out.println("July");
+    // 	 }else if(a == month.Eight) {
+    // 		 System.out.println("August");
+    // 	 }else if(a == month.Nine) {
+    // 		 System.out.println("September");
+    // 	 }else if(a == month.Ten) {
+    // 		 System.out.println("October");
+    // 	 }else if(a == month.Eleven) {
+    // 		 System.out.println("November");
+    // 	 }else if(a == month.Twelve) {
+    // 		 System.out.println("December");
+    // 	 }
 
     
      }
