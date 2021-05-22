@@ -43,11 +43,12 @@ public class HelloWorld{
                                           case 11:
                                               System.out.println("November");
                                               break;
-                      w                        case 12:
+                                             case 12:
                                                   System.out.println("December");
                                                   break;
                                                   default:
                                                   System.out.println("month does not exist");
     
      }
+}
 }
