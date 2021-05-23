@@ -1,0 +1,89 @@
+public class Main {
+  public static void main(String[] args) {
+
+
+// S1. EQUALS (S2)
+
+    String first = "java programming";
+    String second = "java programming";
+    String third = "python programming";
+
+    boolean result1 = first.equals(second);
+    System.out.println("Strings first and second are equal: " + result1);
+
+    boolean result2 = first.equals(third);
+    System.out.println("Strings first and third are equal: " + result2);
+
+
+// S1. LENGTH()
+
+    String greet = "Hello! World";
+    System.out.println("String: " + greet);
+
+    int length = greet.length();
+    System.out.println("Length: " + length);
+    
+//S1. CHARAT(N)
+    
+    String str1 = "Learn Java";
+    String str2 = "Learn\nJava";
+
+    System.out.println(str1.charAt(0)); 
+
+    System.out.println(str1.charAt(6)); 
+
+    System.out.println(str2.charAt(5)); 
+
+
+// S1. SUBSTRING (N,M)
+
+    String str1 = "program";
+    System.out.println(str1.substring(0));
+    
+    System.out.println(str1.substring(3));
+        
+
+ //S1. INDEXOF(S2)
+
+    String str1 = "Learn Java";
+    int result;
+
+    result = str1.indexOf('J');
+    System.out.println(result); 
+
+    result = str1.indexOf('a');
+    System.out.println(result); 
+   
+  // S1.COMPARETO(S2)
+   
+    String str1 = "Learn Java";
+    String str2 = "Learn Java";
+    String str3 = "Learn Kolin";
+    int result;
+
+    result = str1.compareTo(str2);
+    System.out.println(result); 
+
+    result = str1.compareTo(str3);
+    System.out.println(result); 
+
+    result = str3.compareTo(str1);
+    System.out.println(result); 
+    
+ //S1. TOUPPERCASE()
+    
+    String str1 = "Learn Java";
+    String str2 = "Java123";
+
+  
+    System.out.println(str1.toUpperCase()); 
+    System.out.println(str2.toUpperCase()); 
+    
+//S1.TRIM()
+    String str1 = "     Learn   Java Programming ";
+    String str2 = "Learn\nJava Programming\n\n   ";
+
+    System.out.println(str1.trim());
+    System.out.println(str2.trim());
+  }
+}
