@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class HelloWorld{
+
+     public static void main(String []args){
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Enter your string a: ");
+		String a = sc.next();
+		
+		System.out.println("Enter your string b: ");
+		String b = sc.next();
+		
+		  if (a.equals(b)){
+      
+         System.out.println("Both are equal");
+      } else {
+         System.out.println("Both are not equal");
+      }
+		
+		 if (a.equalsIgnoreCase(b)){
+    
+         System.out.println("Both are equal");
+      } else {
+         System.out.println("Both are not equal");
+      }
+     }
+}
