@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+public class amount {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		   System.out.println("RS 1: ");
+		int RS1 = sc.nextInt();
+		
+		
+	    	System.out.println("Rs 2: ");
+		int RS2 = sc.nextInt();
+		
+			System.out.println("Rs 5: ");
+		int RS5 = sc.nextInt();
+		
+			System.out.println("Rs 10: ");
+		int RS10 = sc.nextInt();
+		
+			System.out.println("Rs 20: ");
+		int RS20 = sc.nextInt();
+		
+			System.out.println("Rs 50: ");
+		int RS50 = sc.nextInt();
+		
+			System.out.println("Rs 100: ");
+		int RS100 = sc.nextInt();
+		
+			System.out.println("Rs 200: ");
+		int RS200 = sc.nextInt();
+			
+			System.out.println("Rs 500: ");
+		int RS500 = sc.nextInt();
+		
+			System.out.println("Rs 2000: ");
+		int RS2000 = sc.nextInt();
+		
+	int note1 = (RS1)*1;
+	
+	int note2 = (RS2)*2;
+	
+	int note5 = (RS5)*5;
+	
+	int note10 = (RS10)*10;
+	
+	int note20 = (RS20)*20;
+	
+	int note50 = (RS50)*50;
+	
+	int note100 = (RS100)*100;
+	
+	int note200 = (RS200)*200;
+	
+	int note500 = (RS500)*500;
+	
+	int note2000 = (RS2000)*2000;
+	
+	int total = (note1 + note2 + note5 + note10 + note20 + note50 + note100 +         note200 + note500 + note2000); 
+	
+	 System.out.print = ("TOTAL AMOUNT: " + total);
+		
+	}
+}	
+		
