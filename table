@@ -1,0 +1,87 @@
+import java.util.Scanner;
+public class Multiplication_Table 
+{
+    public static void main(String[] args) 
+    {
+        Scanner s = new Scanner(System.in);
+	System.out.print("Enter number:");        
+	int a=s.nextInt();
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(a+" * "+i+" = "+a*i);
+        }
+        
+        System.out.println();
+        
+        	int b = a+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(b+" * "+i+" = "+b*i);
+        }
+         
+        System.out.println();
+        
+        	int c = b+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(c+" * "+i+" = "+c*i);
+        }
+         
+        System.out.println();
+        
+        	int d = c+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(d+" * "+i+" = "+d*i);
+        }
+         
+        System.out.println();
+        
+        	int e = d+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(e+" * "+i+" = "+e*i);
+        }
+         
+        System.out.println();
+        
+        	int f = e+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(f+" * "+i+" = "+f*i);
+        }
+         
+        System.out.println();
+        
+        	int g = f+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(g+" * "+i+" = "+g*i);
+        }
+         
+        System.out.println();
+        
+        	int h = g+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(h+" * "+i+" = "+h*i);
+        }
+         
+        System.out.println();
+        
+        	int j = h+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(j+" * "+i+" = "+j*i);
+        }
+         
+        System.out.println();
+        
+        	int k = j+1;
+        for(int i=1; i <= 10; i++)
+        {
+            System.out.println(k+" * "+i+" = "+k*i);
+        }
+        
+    }
+}
