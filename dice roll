@@ -2,10 +2,10 @@ public class dice {
 public static void main(String[] args) {
     
     
-   int a = (int) (6*Math.random());
+   int a = (int) (6*Math.random()+1);
    System.out.println("a: " + a);
    
-    int b = (int) (6*Math.random());
+    int b = (int) (6*Math.random()+1);
     System.out.println("b: " + b);
     
     
@@ -17,3 +17,4 @@ public static void main(String[] args) {
     
 }
 }
+   
