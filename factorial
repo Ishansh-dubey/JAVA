@@ -9,26 +9,18 @@ public class Factorial {
       
       System.out.println("number :");
       int a = sc.nextInt();
-      
-    //   if("a".equalsIgnoreCase("0"))
-    //   {
-    //       System.out.println("1");
-    //   }
-    //   else
-    //   {
-    //       System.out.println();
-    //   }
+ 
      
-      for(int i = a; i<=a; i--) {
+      for(int i = a; i > 0; i--) {
 
          System.out.println(" "+i);
          
          System.out.println();
          
-        //   b = b*i;
-        
+          b = b*i;
+      }
     
-         }
-        //  System.out.println("Total: "+b);
+      
+         System.out.println("Total: "+b);
       }
   }
