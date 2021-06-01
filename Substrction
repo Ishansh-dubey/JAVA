@@ -1,0 +1,18 @@
+public class Substraction{
+    
+  static  int minus(int a, int b){
+        int minuss=a-b;
+        return minuss;
+    }
+     public static void main(String []args){
+    
+    int a=4;
+    int b=2;
+    
+    
+    int min=minus(a,b);
+    
+    System.out.println(min);
+    
+     }
+}
