@@ -1,0 +1,18 @@
+public class Addition{
+    
+  static  int sum(int a, int b, int c){
+        int sums=a+b+c;
+        return sums;
+    }
+     public static void main(String []args){
+    
+    int a=1;
+    int b=2;
+    int c=3;
+    
+    int add=sum(a,b,c);
+    
+    System.out.println(add);
+    
+     }
+}
