@@ -1,4 +1,4 @@
-public class Pattern{
+/*public class Pattern{
     
     static void line(){
     
@@ -12,26 +12,53 @@ public class Pattern{
        
          for(int i = 1; i<=5; i++) {
              
-                for(int a = i; a<=i*2; a++){
+                for(int a = i; a<i*2; a++){
                  
                     System.out.print(" "+a);
                  
-        
-              
-               
-               
-             
-               
-               
              }
-                
              
+                System.out.println();
+         }
+        
+       } 
+    
+}  */
+
+
+
+
+
+
+
+
+
+
+
+/*public class Pattern{
+    
+    static void line(){
+    
+      System.out.println();
+  }
+
+
+     public static void main(String []args){
+
+        
+       
+         for(int i = 1; i<=5; i++) {
+             
+                for(int a = 1; a<=i; a++){
+                 
+                    System.out.print(" "+a);
+                    
+             }
+             System.out.println();
+             int a=1;
          }
          
-          
-         
-       
        } 
     
     
-}  
+} */ 
