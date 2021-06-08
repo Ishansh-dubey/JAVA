@@ -1,4 +1,4 @@
-package stringDemo;
+/*package stringDemo;
 
 class Square {
     
@@ -35,5 +35,46 @@ public class Practice2{
 //       
 //        
 //       } 
+    
+} */
+
+
+
+package stringDemo;
+
+class Square {
+    
+    int side = 4;
+    
+    float area;
+    float perimeter;
+    
+    void area() {
+        
+       area= side * side;
+       
+        
+    }
+    
+    void perimeter(){
+        perimeter= 4*side;
+    }
+    
+}    
+
+public class Practice2{
+
+	
+	public static void main(String[] args) {
+		Square areas = new Square();
+		areas.area();
+		System.out.println(areas.area);
+		
+	    Square perimeters = new Square();
+     	perimeters.perimeter();
+		System.out.println(perimeters.perimeter);
+	}
+	
+	
     
 }  
