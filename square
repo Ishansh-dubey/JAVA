@@ -1,0 +1,28 @@
+public class main{
+    
+public class Square {
+    
+    int side = 4;
+    
+    float area;
+    float perimeter;
+    
+    void area() {
+        
+       area= side * side;
+        
+    }
+    
+    //void perimeter
+    
+}    
+
+     public static void main(String []args){
+
+        Square areas = new Square();
+        System.out.println (areas.area);
+       
+        
+       } 
+    
+}  
