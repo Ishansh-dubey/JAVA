@@ -1,15 +1,16 @@
-public class main{
-    
-public class Square {
+package stringDemo;
+
+class Square {
     
     int side = 4;
     
     float area;
     float perimeter;
     
-    void area() {
+    float area() {
         
        area= side * side;
+       return area;
         
     }
     
@@ -17,12 +18,22 @@ public class Square {
     
 }    
 
-     public static void main(String []args){
+public class Practice2{
 
-        Square areas = new Square();
-        System.out.println (areas.area);
-       
-        
-       } 
+	
+	public static void main(String[] args) {
+		Square areas = new Square();
+//		areas.area();
+		System.out.println(areas.area());
+	}
+	
+	
+//     public static void main(String []args){
+//
+//        Square areas = new Square();
+//        System.out.println (areas.area);
+//       
+//        
+//       } 
     
 }  
