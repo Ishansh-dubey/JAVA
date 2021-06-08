@@ -1,0 +1,41 @@
+package stringDemo;
+
+class Triangle {
+    
+    int side = 3;
+    int side2 =3;
+    int height = 2;
+    int base = 4;
+    
+    float area;
+    float perimeter;
+    
+    void area() {
+        
+       area= (base*height)/2;
+       
+        
+    }
+    
+    void perimeter(){
+        perimeter= side+side2+base;
+    }
+    
+}    
+
+public class Practice2{
+
+	
+	public static void main(String[] args) {
+		Triangle areas = new Triangle();
+		areas.area();
+		System.out.println(areas.area);
+		
+	    Triangle perimeters = new Triangle();
+     	perimeters.perimeter();
+		System.out.println(perimeters.perimeter);
+	}
+	
+	
+    
+}  
