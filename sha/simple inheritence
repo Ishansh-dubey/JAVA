@@ -1,0 +1,35 @@
+package stringDemo;
+
+import java.util.Scanner;
+
+class Animal{
+	String sound;
+	
+	void give_sound() {
+		System.out.println(sound);
+	}
+}
+
+class Cat extends Animal{
+	boolean flexible;
+	
+	void if_flexible() {
+		System.out.println(flexible);
+	}
+}
+
+public class Practice2{
+    
+   public static void main(String[] args) {
+	
+	   Cat cat = new Cat();
+	   cat.sound = "meow";
+	   cat.flexible = true;
+	   
+	   cat.give_sound();
+	   cat.if_flexible();
+	   
+   }
+    
+    
+}
