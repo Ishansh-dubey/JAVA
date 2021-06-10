@@ -1,0 +1,59 @@
+package stringDemo;
+
+
+class Shape{
+	int side_count;
+	
+}
+
+class Square extends Shape{
+	
+	public Square() {
+		System.out.println("creating a new square object");
+	}
+	
+	//parameterized
+	public Square(int sl, int sc) {
+		side_length = sl;
+		side_count = sc;
+	}
+	
+//	public Square(String sc) {
+//	//	side_length = sl;
+//		side_count = sc;
+//	}
+//	
+	public Square(int a, String str) {
+		side_length = a;
+		System.out.println(str);
+	}
+	
+	int side_length;
+	String msg;
+	
+	int calculate_area() {
+		return (side_length * side_count);
+	}
+}
+public class Practice2{
+
+	public static void main (String[] args)
+	{
+//		Square sq1 = new Square();
+//		sq1.side_count = 4;
+//		sq1.side_length = 5;
+//		
+	//	System.out.println(sq1.calculate_area());
+		
+		Square sq2 = new Square(2,3);
+		
+		sq2.calculate_area();
+		
+		System.out.println(sq2.calculate_area());
+		
+		Square sq3 = new Square(4, "this is a msg");
+		sq3.side_count = 4;
+		System.out.println(sq3.calculate_area());
+	}
+
+}
