@@ -2,10 +2,10 @@ package stringDemo;
 
 class Triangle {
     
-    int side = 3;
-    int side2 =3;
-    int height = 2;
-    int base = 4;
+    int side ;
+    int side2 ;
+    int height ;
+    int base ;
     
     float area;
     float perimeter;
@@ -27,13 +27,22 @@ public class Practice2{
 
 	
 	public static void main(String[] args) {
-		Triangle areas = new Triangle();
-		areas.area();
-		System.out.println(areas.area);
+		Triangle tg1 = new Triangle();
 		
-	    Triangle perimeters = new Triangle();
-     	perimeters.perimeter();
-		System.out.println(perimeters.perimeter);
+		tg1.base=3;
+		tg1.height=4;
+		
+		tg1.area();
+		System.out.println(tg1.area);
+		
+	    Triangle tg2 = new Triangle();
+	    
+	    tg2.side=3;
+	    tg2.side2=4;
+	    tg2.base=6;
+	    
+     	tg2.perimeter();
+		System.out.println(tg2.perimeter);
 	}
 	
 	
