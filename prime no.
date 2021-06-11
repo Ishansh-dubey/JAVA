@@ -10,17 +10,22 @@ public class prime {
         System.out.println("Number: ");
       int num = sc.nextInt();
       
-        for(int i = 2; i<num; i++){
-        if(num % i == 0){
-            System.out.println("it is prime no.");
+        for(int i = 2; i<=3; i++){
+        if (num % i == 0){
+            System.out.println("it is not prime no.");
         } 
-      else {
-          System.out.println("it is not prime no.");
-      }       
+        
+        else {
+            System.out.println("it is  prime no.");
+        } 
+        
         }
+      
+        //  System.out.println("it is  prime no.");
+             
+        
     }
     
 }
-
 
 
