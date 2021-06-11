@@ -44,7 +44,7 @@ package stringDemo;
 
 class Square {
     
-    int side = 4;
+    int side;
     
     float area;
     float perimeter;
@@ -66,15 +66,19 @@ public class Practice2{
 
 	
 	public static void main(String[] args) {
-		Square areas = new Square();
-		areas.area();
-		System.out.println(areas.area);
+		Square sqa = new Square();
+		sqa.side=3;
+		sqa.area();
+		System.out.println(sqa.area);
 		
-	    Square perimeters = new Square();
-     	perimeters.perimeter();
-		System.out.println(perimeters.perimeter);
+	    Square sq2 = new Square();
+	    sq2.side=4;
+     	sq2.perimeter();
+		System.out.println(sq2.perimeter);
 	}
 	
 	
     
 }  
+
+
