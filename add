@@ -1,0 +1,101 @@
+class Add{
+	int a;
+	int b;
+	String str;
+}
+
+class No extends Add{
+	
+	int a = 1;
+	int b = 2;
+	
+	int add() {
+	    return (a + b);
+	}
+}
+
+class Noo extends Add{
+	
+	int a = 1;
+	
+	int add() {
+	    return (a + b);
+	}
+}
+
+class Nooo extends Add{
+	
+	
+	
+	int add() {
+	    return (a + b);
+	}
+}
+
+class Noooo extends Add{
+	
+	
+	
+	int add() {
+	    return (a + b);
+	    
+	}
+	
+}
+	
+	
+
+
+public class addition{
+
+	public static void main (String[] args)
+	{
+
+		
+		No ad1 = new No ();
+		
+		ad1.add();
+		
+		System.out.println(ad1.add());
+		
+		
+		
+		Noo ad2 = new Noo ();
+		
+		ad2.b=3;
+		
+		ad2.add();
+		
+		System.out.println(ad2.add());
+		
+		
+		
+		Nooo ad3 = new Nooo ();
+		
+		ad3.a=5;
+		ad3.b=3;
+		
+		ad3.add();
+		
+		System.out.println(ad3.add());
+		
+		
+		
+		Noooo ad4 = new Noooo ();
+		
+		ad4.a=5;
+		ad4.b=3;
+		ad4.str=("this is my code");
+		
+		ad4.add();
+		
+		
+		System.out.println(ad4.add());
+		System.out.println(ad4.str);
+		
+	
+		
+		
+	}
+
+}
