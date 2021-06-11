@@ -62,3 +62,38 @@
     
     
 } */ 
+
+
+
+
+
+
+
+/*public class Pattern{
+    
+    static void line(){
+    
+      System.out.println();
+  }
+
+
+     public static void main(String []args){
+int b=1;
+        
+       
+         for(int i = 1; i<=10; i++) {
+             
+                for(int a = i; a<=b*3; a++){
+                 
+                    System.out.print(" "+a);
+                 
+                 
+             }
+             i=i+2;
+             b=b+1;
+                System.out.println();
+         }
+        
+       } 
+    
+}*/
