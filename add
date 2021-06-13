@@ -99,3 +99,74 @@ public class addition{
 	}
 
 }
+
+
+
+/*public class Addition{
+
+static int Add()
+{
+    int x = 10;
+    int y = 20;
+    
+    int Add= x+y;
+    
+    return Add;
+    
+}
+
+static int Add (int y)
+{
+    int x = 1;
+    
+
+     int Add= x+y;
+    
+    return Add;
+    
+}
+
+static int Add (int x,int y)
+{
+    
+     int Add= x+y;
+    
+    return Add;
+}
+
+static int Add (int x, int y, String str )
+{
+     int Add= x+y;
+    return Add;
+
+    // System.out.println(str);
+}
+
+
+
+	public static void main (String[] args)
+	{
+	    
+	    int x = 3;
+	    int y = 5;
+	    String str = "new code";
+
+
+		int add = Add();
+		System.out.println(add);
+		
+		    add = Add(y);
+		System.out.println(add);
+		
+		 add = Add(x,y);
+		System.out.println(add);
+		
+		 add = Add(x,y,str);
+		System.out.println(add);
+		
+
+		
+	}
+	}
+
+*/
