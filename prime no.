@@ -61,3 +61,51 @@ public class prime {
     }
     
 }*/
+
+
+
+
+/*import java.util.Scanner;
+
+public class prime {
+    
+    public static void main (String[] args)
+    {
+       
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number: ");
+      int num = sc.nextInt();
+      boolean b = false;
+      
+      for(int a = 3; a <=num; a++){
+        for(int i = 2; i<num; i++){
+        if (a % i != 0){
+           b=true;
+        
+        } 
+        
+        else {
+            System.out.println(a + "it is not a prime no.");
+            b = false;
+            break;
+        } 
+        
+        }
+      
+        if(b==true){
+      
+          System.out.println(a + "it is  prime no.");
+          
+        }
+        int i = 2;
+      }
+        
+        //if(b==true){
+      
+          //System.out.println("it is  prime no.");
+        //}
+        
+    }
+    
+}*/
