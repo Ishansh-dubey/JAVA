@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+
+public class Pallindrome{
+
+	public static void main (String[] args)
+	{
+		String str = "ad/q/da";
+		
+		int a = 0;
+		int b = str.length()-1;
+
+		for(a=0; a <= b; ) {
+			
+			if(str.charAt(a) == str.charAt(b)) {
+				a++;
+				b--;
+			}else {
+				System.out.println("not a pallindrome");
+				break;
+			}
+			
+		}
+		if(a > b) {
+			System.out.println("it is a pallindrome");
+		}
+	}
+}
