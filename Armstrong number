@@ -2,10 +2,13 @@ public class armstrong{
     
     public static void main(String[] args){
         
-     String number="153";
+    int num = 153;    
+        
+     String number=String.valueOf(num);
      
      int length = number.length();
      
+     int a = 0;
      
      for(int i=1; i<=length; i++)
      {
@@ -16,7 +19,7 @@ public class armstrong{
      
      System.out.println(length);
      
-     System.out.println(result);
+     System.out.println(a);
         
     }
 }
