@@ -22,4 +22,42 @@ public class reverse {
 		}	
 	}
 }
+
+
+
+
+
+
+
+
+/*public class reverse {
+
+	public static void main (String[] args)
+	{
+	    int num = 15;    
+        
+     String number=String.valueOf(num);
+		
+		
+		
+		int e = number.length()-1;
+		int a = 0;
+	//	int sum=0;
+		for(int i=e;  i >= 0; i-- ) {
+			
+			 char b = number.charAt(i);
+			  a=Character.getNumericValue(b);  
+			 //int a=Integer.parseInt(String.valueOf(b)); 
+		
+		    int sum =a;
+				
+              System.out.print(sum);
+              
+              
+		}	
+		//   sum =a;
+				
+          //    System.out.print(sum);
+	}
+}*/
     
