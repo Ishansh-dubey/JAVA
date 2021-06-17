@@ -109,3 +109,46 @@ public class prime {
     }
     
 }*/
+
+
+
+
+
+
+
+
+/*import java.util.Scanner;
+
+public class prime {
+    
+    public static void main (String[] args)
+    {
+       
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number: ");
+      int num = sc.nextInt();
+      boolean b = false;
+      
+      for(int i=3; i<=num; i++)
+      {
+          for(int a=2; a<=i-1; a++)
+          {
+              if (i % a == 0){
+                  System.out.println(i + " it is not a prime no. ");
+                  b=false;
+                  break;
+              }
+              else{
+                  b = true;
+              }
+          }
+              if(b==true){
+                  System.out.println(i + " it is a prime number ");
+              }
+          
+      }
+        
+    }
+    
+}*/
