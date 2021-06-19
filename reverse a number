@@ -63,19 +63,22 @@ public class reverse {
 
 
 
-/*public class reverse{  
-  public static void main(String args[]){ 
+/*
+package samplePackage;
+
+public class SampleClass{  
+  public static void main(String[] args){ 
     
     int num = 54;
     int res = 0;
     int a =0;
     
-    String number =String.valueOf(num);
+    String number = String.valueOf(num);
     
     
     int length = number.length();
     
-    //int numb = Integer.parseInt(number);
+    
     
     for(int i=1; i<=length; i++){
       
@@ -85,11 +88,7 @@ public class reverse {
         
           num = num / 10;
       
-    }
-    
-    
+    } 
     System.out.println(res);  
   }  
-}  
-*/
-    
+}  */
