@@ -155,7 +155,7 @@ public class prime {
 
 /*package samplePackage;
 import java.util.Scanner;
-public class SampleClass{  
+public class SampleClass{               //nth prime no.
 	public static void main(String[] args){ 
 
         Scanner sc = new Scanner(System.in);
@@ -179,6 +179,39 @@ public class SampleClass{
               if(b==true || i == 2){
             	  count++;
             	  if(count==num)
+                  System.out.println(i + " it is a prime number ");
+              }
+          
+      }
+}
+}*/
+
+/*package samplePackage;
+import java.util.Scanner;
+public class SampleClass{                        //alternate prime no.
+	public static void main(String[] args){ 
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Number: ");
+      int num = sc.nextInt();
+      boolean b = false;
+      int count=0;
+      
+      for(int i=2; i<=num; i++)
+      {
+          for(int a=2; a<=i-1; a++)
+          {
+              if (i % a == 0){
+            	  b=false;
+                  break;
+              }
+              else{
+                  b = true;
+              }
+          }
+              if(b==true|| i == 2 ){
+            	  count++;
+            	  if(count % 2 !=0 || i == 2)
                   System.out.println(i + " it is a prime number ");
               }
           
