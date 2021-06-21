@@ -92,3 +92,28 @@ public class SampleClass{
     System.out.println(res);  
   }  
 }  */
+
+
+
+
+
+package samplePackage;
+
+public class SampleClass{  
+  public static void main(String[] args){ 
+    
+    int num = 54;
+    int res = 0;
+    int a =0;
+    
+    while(54>0) {
+    	a=num%10;
+    	
+    	res = res*10 + a;
+    	
+    	num = num /10;
+    }
+      System.out.println(res);  
+     
+  }  
+} 
