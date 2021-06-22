@@ -106,7 +106,7 @@ public class SampleClass{
     int res = 0;
     int a =0;
     
-    while(54>0) {
+    while(num>0) {
     	a=num%10;
     	
     	res = res*10 + a;
