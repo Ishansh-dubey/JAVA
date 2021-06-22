@@ -1,0 +1,39 @@
+package samplePackage;
+
+public class SampleClass{ 
+
+  public static void main(String[] args){ 
+    
+    String sc = "hi owl";
+    
+    int length = sc.length()-1; //-1 (because index it start with 0)
+    
+    System.out.println(length);
+    
+     char a = 0;
+    char e = 0;
+    char i = 0;
+    char o = 0;
+    char u =0;
+	int count = 0;
+  int counter = 0;
+
+     for(int z = 0; z<=length; z++) {
+    	char c = sc.charAt(z);
+	if (c != a || c != e || c != i || c != o || c != u) {
+  
+	count++;
+	   
+  }
+	
+	     
+	   else{
+	      
+		counter++;
+	}
+	
+	}
+     System.out.println(count + " vowels");
+     System.out.println(counter + " consonants");
+  }
+}
