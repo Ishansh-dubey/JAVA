@@ -1,0 +1,61 @@
+package stringDemo;
+
+import java.util.Scanner;
+
+class Shape{
+	int dimension;
+	int volume;
+
+	public int getDimension() {
+		return dimension;
+	}
+	public void setDimension(int dimension) {
+		this.dimension = dimension;
+	}
+	public int getVolume() {
+		return volume;
+	}
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+
+	public void add_sq_sides(Square sq) {
+//		System.out.println(dimension);
+		System.out.println(this.dimension + sq.dimension);
+	}
+
+}
+
+class Square extends Shape{
+
+
+}
+
+public class Practice2{
+
+	/*
+	 * Encapsulation
+	 * Polymorphism
+	 * Abstraction
+	 * Inheritence
+	 * 
+	 */
+
+//	public static int add_sides(Square sq1, Square sq2){
+//		return (sq1.getDimension() + sq2.getDimension());
+//	}
+
+	public static void main(String[] args) {
+
+		Square sq1 = new Square();
+		sq1.setDimension(2);
+
+		Square sq2 = new Square();
+		sq2.setDimension(5);
+
+//		System.out.println(add_sides(sq1, sq2));
+		
+		sq2.add_sq_sides(sq1);
+
+	}
+}
