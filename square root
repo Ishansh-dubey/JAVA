@@ -1,0 +1,28 @@
+package SampleProject;
+
+import java.util.Scanner;
+
+public class Sampleclass{
+	public static void main(String[] args){
+		
+		Scanner sc = new Scanner(System.in); {
+		
+			System.out.println("enter a number: ");
+			
+			int num = sc.nextInt();
+			
+			for(int i = 1; ; i++) {
+				
+				int a = i * i;
+				if(a==num) {
+					System.out.println(i +" is the square root of " + num);
+					break;
+				}
+				else {
+					
+				}
+					
+			}
+	}
+}
+}
