@@ -32,3 +32,46 @@ public class Sampleclass{
 	}
 }
 }
+
+
+package SampleProject;
+
+import java.util.Scanner;
+
+public class Sampleclass{
+	public static void main(String[] args){
+		
+		Scanner sc = new Scanner(System.in); {
+		
+			System.out.println("enter a number: ");
+			
+			int num = sc.nextInt();
+			
+			boolean z = false;
+			int count = 0;
+			
+			for(int a = 2; a<=num; a++) {
+				for(int b = 2 ; b<a; b++) {
+					if(a % b == 0) {
+						z = true;
+						
+						
+						break;
+					}
+						else{
+							z = false;
+						}
+					}
+				if(z == true ) {
+					count++;
+					if(a==num) {
+					
+				System.out.println(count);
+					}
+	
+			}
+			}
+			      
+	}
+}
+}
