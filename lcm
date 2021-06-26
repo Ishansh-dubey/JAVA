@@ -1,0 +1,24 @@
+package SampleProject;
+
+import java.util.Scanner;
+
+public class Sampleclass{
+	
+	public static int addition(int a, int b) {
+		//int lcm = ;
+	    int num = 0;
+		for(int i = a; i<=a; i++) {
+		for(int z=2;  z<= a; z++ ) {
+		
+		while(num==1) {
+			
+			num = i / z ;
+			
+		}
+		}
+	}
+	}
+	public static void main(String[] args){
+		
+}
+}
