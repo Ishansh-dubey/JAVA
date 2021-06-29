@@ -37,3 +37,43 @@ public class SampleClass{
      System.out.println(counter + " consonants");
   }
 }
+
+
+
+
+
+package SampleProject;
+
+public class SampleClass{ 
+
+  public static void main(String[] args){ 
+    
+    String sc = "hifowl";
+    
+    int length = sc.length()-1; //-1 (because index it start with 0)
+    
+   
+    
+
+	int count = 0;
+  int counter = 0;
+
+     for(int z = 0; z<=length; z++) {
+    	char c = sc.charAt(z);
+	if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+  
+	count++;
+	   
+  }
+	
+	     
+	   else{
+	      
+		counter++;
+	}
+	
+	}
+     System.out.println(count + " vowels");
+     System.out.println(counter + " consonants");
+  }
+}
