@@ -1,0 +1,47 @@
+package stringDemo;
+
+import java.util.Scanner;
+
+class Shape{
+	
+	int sides;
+	
+}
+
+interface circle_funs{
+//	public static final int radius = 0;
+	public double calculate_double_area();
+}
+
+class Circle implements circle_funs{
+	int radius;
+	double area;
+	
+	public double calculate_area() {
+		double a = 3.14 * radius * radius;
+		area = a;
+		return this.area;
+	}
+	
+	public double calculate_double_area() {
+		calculate_area();
+		return this.area*2;
+	}
+}
+
+public class Practice2{
+
+	
+	public static void main(String[] args) {
+		//Circle c1 = new Circle();
+		circle_funs c1 = new Circle();
+//		c1.radius = 5;
+		c1.radius = 5;
+//		double a = c1.calculate_area();
+		c1.calculate_double_area();
+//		System.out.println(a);
+		
+		System.out.println(4/0);
+	}
+	 
+}
