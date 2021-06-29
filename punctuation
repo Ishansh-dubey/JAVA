@@ -1,0 +1,28 @@
+package SampleProject;
+
+public class SampleClass{ 
+
+  public static void main(String[] args){ 
+    
+    String sc = "hi,o.w!l;";
+    
+    int length = sc.length()-1; //-1 (because index it start with 0)
+    
+   
+    
+
+	int count = 0;
+  int counter = 0;
+
+     for(int z = 0; z<=length; z++) {
+    	char c = sc.charAt(z);
+	if (c == '.' || c == ',' || c == '!' || c == ';' || c == '"') {
+  
+	count++;
+	}
+	
+	}
+     System.out.println(count + " puncuation");
+    
+  }
+}
