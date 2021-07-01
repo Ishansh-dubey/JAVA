@@ -1,0 +1,18 @@
+package SampleProject;
+
+public class SampleClass{
+	
+	public static void main(String[] args) {
+		
+		String sc = "hi my name is ishansh";
+		
+		int length = sc.length();
+		
+		int a = length / 2;
+		
+		System.out.println(sc.substring(0,a));
+		System.out.println(sc.substring(a));
+		
+	}
+	
+}
