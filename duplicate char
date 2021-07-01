@@ -1,0 +1,32 @@
+package SampleProject;
+
+public class SampleClass{
+	
+	public static void main(String[] args) {
+		
+		String sc = "ishansh";
+		
+		boolean a= false;
+		
+		for(int i = 1; i<= sc.length(); i++) {
+			for(int j = 1; j<=sc.length(); j++) {
+				
+				if (sc.charAt(i) == sc.charAt(j)){
+					a=false;
+					
+				}
+				else {
+					//System.out.println(sc.charAt(i));
+					a=true;
+					break;
+				}
+				if (a==true) {
+				System.out.println(sc.charAt(i));
+				}
+			}
+			
+		}
+		
+	
+	}
+}
