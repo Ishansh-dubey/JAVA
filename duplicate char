@@ -2,28 +2,34 @@ package SampleProject;
 
 public class SampleClass{
 	
+	
+	static String sun (String sc) {
+	boolean a= false;
+    int i = 0;
+for(; i< sc.length(); i++) {
+	for(int j = 0; j<sc.length(); j++) {
+		
+		if (sc.charAt(i) == sc.charAt(j) && i != j){
+			a=false;
+			break;
+		}
+		else {
+			
+			a=true;
+		}
+		
+	}if (a==true) {
+		System.out.print(sc.charAt(i));
+	}
+}
+return sc;
+	}
 	public static void main(String[] args) {
 		
-		String sc = "ishansh";
+		String a = sun ("ishansh");
 		
-		boolean a= false;
-		    int i = 0;
-		for(; i< sc.length(); i++) {
-			for(int j = 0; j<sc.length(); j++) {
-				
-				if (sc.charAt(i) == sc.charAt(j) && i != j){
-					a=false;
-					break;
-				}
-				else {
-					
-					a=true;
-				}
-				
-			}if (a==true) {
-				System.out.print(sc.charAt(i));
-			}
-		}
+		
+		
 		
 	
 	}
