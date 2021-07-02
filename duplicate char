@@ -21,7 +21,7 @@ public class SampleClass{
 				}
 				
 			}if (a==true) {
-				System.out.println(sc.charAt(i));
+				System.out.print(sc.charAt(i));
 			}
 		}
 		
