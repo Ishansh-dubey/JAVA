@@ -16,3 +16,48 @@ public class SampleClass{
 	}
 	
 }
+
+
+
+
+
+
+
+
+
+package SampleProject;
+import java.util.Scanner;
+public class SampleClass{
+	
+	public static void main(String[] args) {
+		
+     Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your no.: ");
+		int a = sc.nextInt();
+		
+		
+		String sc1 = "ishansh";
+		
+		int length = sc1.length();
+		int b = length / a ;
+		int i = 0;
+		int j = 0;
+		
+		int count = 0;
+		for(; i<=i; i++) {
+			for(j=i+a; j<=j; j++) {
+				
+				System.out.println(sc1.substring(i,j));
+				
+				
+				count++;
+			}
+			if(count == a) {
+			i=j;
+			}
+		}
+		
+	}
+	
+}
