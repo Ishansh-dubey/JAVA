@@ -25,7 +25,7 @@ public class SampleClass{
 
 
 
-package SampleProject;
+ppackage SampleProject;
 import java.util.Scanner;
 public class SampleClass{
 	
@@ -37,7 +37,7 @@ public class SampleClass{
 		int a = sc.nextInt();
 		
 		
-		String sc1 = "ishansh";
+		String sc1 = "ishans";
 		
 		int length = sc1.length();
 		int b = length / a ;
@@ -45,8 +45,8 @@ public class SampleClass{
 		int j = 0;
 		
 		int count = 0;
-		for(; i<=i; i++) {
-			for(j=i+a; j<=j; j++) {
+		for(; i<=i; i++ ) {
+			for(j=i+b; j<=j; j++ ) {
 				
 				System.out.println(sc1.substring(i,j));
 				
@@ -54,7 +54,11 @@ public class SampleClass{
 				count++;
 			}
 			if(count == a) {
-			i=j;
+			break;
+			}
+			else {
+				i=j;
+				j=0;
 			}
 		}
 		
