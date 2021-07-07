@@ -25,43 +25,54 @@ public class SampleClass{
 
 
 
-ppackage SampleProject;
+package SampleProject;
+
 import java.util.Scanner;
+
 public class SampleClass{
 	
+
 	public static void main(String[] args) {
 		
-     Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
+		int part = sc.nextInt();
 		
-		System.out.println("Enter your no.: ");
-		int a = sc.nextInt();
+		String str = "ishans";
 		
+		int length = str.length();
 		
-		String sc1 = "ishans";
-		
-		int length = sc1.length();
-		int b = length / a ;
-		int i = 0;
-		int j = 0;
+		int d =length/part;
 		
 		int count = 0;
-		for(; i<=i; i++ ) {
-			for(j=i+b; j<=j; j++ ) {
+		int a = 1;
+		int b = a+d;
+		int i= 0;
+		int e = 0;
+	
+		for(; i<a; i++ ) {
+			for( e =i+d; e<b;) {
 				
-				System.out.println(sc1.substring(i,j));
 				
+				System.out.println(str.substring(i,e));
 				
 				count++;
+				e++;
+				
 			}
-			if(count == a) {
-			break;
+			if(count == part) {
+				break;
 			}
 			else {
-				i=j;
-				j=0;
+				i=e-1;
+				a=a+d;
+				b=b+d;
+				
 			}
+			
 		}
-		
+
 	}
+
 	
 }
+
