@@ -1,0 +1,42 @@
+package SampleProject;
+
+
+public class SampleClass {
+	
+	public static int factorial(int a, int b, int count) {
+		
+		
+	
+	
+		if(count > 9) {
+		System.out.println("Total" +b);
+	}
+	else {
+		 b = b*a;
+		System.out.println(a+" ");
+		
+		a=a-1;
+		count++;
+		
+		int d=factorial(a,b, count);
+		
+	 
+	}
+	
+	return count;
+				
+	}
+
+  public static void main(String args[]) {
+ 
+     
+      int a=10;
+      int b=1;
+     
+      int count =0;
+      
+      factorial(a,b,count);
+ 
+      
+      }
+  }
