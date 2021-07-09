@@ -1,0 +1,45 @@
+package SampleProject;
+
+
+public class SampleClass {
+	
+	public static int reverse(String sc, int a, int i, int count) {
+		
+		
+	
+		if(count > a) {
+			
+		}
+	else {
+		
+		 System.out.print(sc.charAt(i));
+		 i--;
+		
+		count++;
+		
+		return reverse(sc, a, i, count);
+		
+	 
+	}
+	
+	return count;
+				
+	}
+
+  public static void main(String args[]) {
+ 
+     
+     
+    String sc ="ishansh";
+    int length=sc.length();
+    int a= length-1;
+    
+   
+    int i =a;
+      int count =0;
+      
+      reverse(sc, a, i, count);
+ 
+      
+      }
+  }
