@@ -3,12 +3,12 @@ package SampleProject;
 
 public class SampleClass {
 	
-	public static int factorial(int a, int b, int count) {
+	public static int factorial(int a, int b,int c, int count) {
 		
 		
 	
 	
-		if(count > 9) {
+		if(count > c) {
 		System.out.println("Total" +b);
 	}
 	else {
@@ -18,7 +18,7 @@ public class SampleClass {
 		a=a-1;
 		count++;
 		
-		int d=factorial(a,b, count);
+		int d=factorial(a,b,c, count);
 		
 	 
 	}
@@ -30,12 +30,12 @@ public class SampleClass {
   public static void main(String args[]) {
  
      
-      int a=10;
+      int a=12;
       int b=1;
-     
+     int c =a-1;
       int count =0;
       
-      factorial(a,b,count);
+      factorial(a,b,c,count);
  
       
       }
