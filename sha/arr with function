@@ -1,0 +1,33 @@
+package stringDemo;
+
+import java.util.Collections;
+import java.util.Scanner;
+
+
+public class Live {
+
+	public static int[] sum(int arr[]) {
+		int sum = 0;
+		for(int i : arr) {
+			sum += i;
+		}
+		System.out.println(sum);
+		
+		int res_arr[] = new int[2];
+		res_arr[0] = sum;
+		res_arr[1] = 4;
+		
+		return res_arr;
+	}
+	
+	public static void main(String[] args) {
+		
+		int arr[] = {1,2,3,4,5};
+		int arr2[] = {0,9,8,7};
+		
+		int result [] = sum(arr);
+		
+		System.out.println(result[0]);
+		System.out.println(result[1]);
+	}
+}
