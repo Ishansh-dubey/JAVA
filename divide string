@@ -76,3 +76,93 @@ public class SampleClass{
 	
 }
 
+
+
+
+
+
+
+
+package SampleProject;
+
+import java.util.Scanner;
+
+public class SampleClass{
+	
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int part = sc.nextInt();
+		
+		String str = "ishansh";
+		
+		int length = str.length();
+		int last = length -1;
+		
+		int d =length/part;
+		
+		int count = 0;
+		int a = 1;
+		int b = a+d;
+		int i= 0;
+		int e = 0;
+		
+		if(length%part!=0) {
+			for(; i<a;  ) {
+				for( e =i+d; e<b;) {
+					
+					
+					System.out.println(str.substring(i,e));
+					
+					count++;
+					e++;
+					
+				}
+				if(count == part) {
+				System.out.println(str.substring(last));
+					break;
+				}
+				else {
+					i=e-1;
+					a=a+d;
+					b=b+d;
+		}
+			
+		}
+		}
+		else {
+		for(; i<a;  ) {
+			for( e =i+d; e<b;) {
+				
+				
+				System.out.println(str.substring(i,e));
+				
+				count++;
+				e++;
+				
+			}
+			if(count == part) {
+				break;
+			}
+			else {
+				i=e-1;
+				a=a+d;
+				b=b+d;
+				
+			}
+			
+		  } 
+		
+		}
+	
+
+	}
+
+	
+
+	
+	}
+
+	
+
