@@ -1,0 +1,48 @@
+package SampleProject;
+
+
+public class SampleClass {
+	
+	public static int sod( int index,String sc,int sum,int i, int count) {
+		
+	
+	
+		if(count > index) {
+		
+		System.out.println("Total " +sum);
+	}
+	else {
+		int total =Character.getNumericValue(sc.charAt(i));
+		 sum= sum+total;
+	
+		i++;
+		count++;
+		
+		
+		return sod(index,sc,sum,i, count);
+		
+	 
+	}
+	
+	return count;
+				
+	}
+
+  public static void main(String args[]) {
+ 
+     
+      int num=123;
+      System.out.println("num: "+ num);
+      String sc =String.valueOf(num);
+      int length=sc.length();
+      int index= length-1;
+    
+      int sum =0;
+      int i=0;
+      int count =0;
+      
+     sod(index,sc,sum, i ,count);
+ 
+      
+      }
+  }
