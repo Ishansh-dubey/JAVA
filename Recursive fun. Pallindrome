@@ -1,0 +1,38 @@
+package SampleProject;
+
+
+public class SampleClass {
+	
+	public static int pallindrome(String sc, int a, int b) {
+		
+		
+	
+		if(a > b) {
+			System.out.println("it is pallindrome");
+		}
+	else if (sc.charAt(a) == sc.charAt(b)) {
+			a++;
+			b--;
+		return pallindrome(sc, a, b);
+	
+	}
+	else {
+		System.out.println("it is not pallindrome");
+	}
+		return b;
+	}
+
+  public static void main(String args[]) {
+ 
+     
+     
+    String sc ="abcddcba";
+    int length=sc.length();
+    int a = 0;
+    int b= length-1;
+   
+   pallindrome(sc, a, b);
+ 
+      
+      }
+  }
