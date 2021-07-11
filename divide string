@@ -98,9 +98,10 @@ public class SampleClass{
 		String str = "ishansh";
 		
 		int length = str.length();
-		int last = length -1;
-		
 		int d =length/part;
+	
+		
+		
 		
 		int count = 0;
 		int a = 1;
@@ -108,30 +109,9 @@ public class SampleClass{
 		int i= 0;
 		int e = 0;
 		
-		if(length%part!=0) {
-			for(; i<a;  ) {
-				for( e =i+d; e<b;) {
-					
-					
-					System.out.println(str.substring(i,e));
-					
-					count++;
-					e++;
-					
-				}
-				if(count == part) {
-				System.out.println(str.substring(last));
-					break;
-				}
-				else {
-					i=e-1;
-					a=a+d;
-					b=b+d;
-		}
-			
-		}
-		}
-		else {
+
+
+		
 		for(; i<a;  ) {
 			for( e =i+d; e<b;) {
 				
@@ -143,6 +123,8 @@ public class SampleClass{
 				
 			}
 			if(count == part) {
+				e--;
+				System.out.println(str.substring(e));
 				break;
 			}
 			else {
@@ -162,7 +144,7 @@ public class SampleClass{
 	
 
 	
-	}
+	
 
 	
 
