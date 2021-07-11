@@ -46,3 +46,57 @@ public class SampleClass {
       
       }
   }
+
+
+
+
+
+package SampleProject;
+
+
+public class SampleClass {
+	
+	public static void sod(int num, int len,int sum, int count) {
+		
+	
+	
+		if(count > len) {
+		
+		System.out.println("Total " +sum);
+	}
+	else {
+		int d =num%10;
+		 sum= sum+d;
+		 
+		 num=num/10;
+	
+		
+		count++;
+		
+		
+	    sod(num,len,sum, count);
+		
+	 
+	 }
+				
+		
+	}
+
+  public static void main(String args[]) {
+ 
+     
+      int num=124030;
+      System.out.println("num: "+ num);
+      String sc =String.valueOf(num);
+      int length=sc.length();
+      int len= length-1;
+    
+      int sum =0;
+    
+      int count =0;
+      
+     sod(num,len,sum ,count);
+ 
+      
+      }
+  }
