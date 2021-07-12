@@ -174,7 +174,7 @@ public class SampleClass{
 		int e = 0;
 		
          
-        if(length%2!=0) {
+        if(length%part!=0) {
 		for(; i<a;  ) {
 			for( e =i+d; e<b;) {
 				
