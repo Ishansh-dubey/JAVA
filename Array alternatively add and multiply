@@ -1,0 +1,34 @@
+
+package Sampleclass;
+import java.util.Scanner;
+
+public class SampleClass{                    
+	
+	public static void main(String[] args) {
+		
+				
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter array length");
+		int length =sc.nextInt();
+		
+		int arr[]=new int[length];
+		
+		System.out.println("enter a number");
+		for (int i = 0;i<arr.length;i++) {
+            
+            arr[i]=sc.nextInt();
+            
+        }
+		  
+			int sum=arr[0];
+            int j=1;
+	     for( ; j<arr.length ; ){
+	    	 
+	    	 sum = sum +arr[j];
+	 	     j++;
+	 	     sum = sum * arr[j];
+	    	 j++;
+        }
+	     System.out.println(sum);
+	}
+}
