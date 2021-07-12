@@ -100,3 +100,57 @@ public class SampleClass {
       
       }
   }
+
+
+
+
+
+
+
+
+
+package SampleProject;
+
+
+public class SampleClass {
+	
+	public static void sod(int num,int sum) {
+		
+	
+	
+		if(num==0) {
+		
+		System.out.println("Total " +sum);
+	}
+	else {
+		int d =num%10;
+		 sum= sum+d;
+		 
+		 num=num/10;
+	
+	    sod(num,sum);
+		 
+	  }
+		
+	}
+
+  public static void main(String args[]) {
+ 
+     
+      int num=123456789;
+      System.out.println("num: "+ num);
+      int sum =0;
+    
+     sod(num,sum );
+ 
+      
+      }
+  }
+
+
+
+
+
+
+
+
