@@ -1,4 +1,4 @@
-package SmpleClass;
+package SampleClass;
 public class SampleClass{
 	 public static boolean alternative(String sc)
 	    {
