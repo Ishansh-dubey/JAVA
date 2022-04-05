@@ -7,3 +7,26 @@ public static void main(String[] args) {
         System.out.println(Math.random());
     }
 }
+
+
+
+
+package JavaCode;
+
+public class JavaCode{
+	public static void main(String[] args) {     //5/4/2022
+	
+
+		for(int i=1; i<=10; i++)
+		{
+			double num =Math.random()*10;
+			int random = (int)num;
+			
+			System.out.println(random);
+		}
+	
+	}
+	
+	}
+		
+	
