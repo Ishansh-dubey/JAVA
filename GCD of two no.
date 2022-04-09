@@ -1,0 +1,71 @@
+package JavaCode;
+import java.util.Scanner;
+public class JavaCode{
+	public static void main(String[] args) {
+
+		
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter no. x = ");
+		System.out.println("enter no. y = ");
+		
+		int x = sc.nextInt();
+		int y = sc.nextInt();
+		int q=0;
+		int p=0;
+		int c=0;
+		int l=1;
+
+		for(int a=2; a<=x; a++ )
+		{
+			if (x%a==0)
+			{
+				x=x/a;
+				q=q+x;
+				a=2;
+				System.out.print(x+",");
+			}
+			
+			
+		}
+          System.out.println();
+		for(int b=2; b<=y; b++ )
+		{
+			if (y%b==0)
+			{
+				y=y/b;
+				p=p+x;
+				b=2;
+				System.out.print(y+",");
+			}
+			
+		}
+		
+	  while(q==0)
+	  {
+		q=q%10;
+		p=p%10;
+		if(q==p)
+		{
+			l=l*p;
+		}
+		
+		q=q/10;
+		 
+		  
+	  }
+	  System.out.println(l);
+	  
+	  while(p==0)
+	  {
+		  p=p%10;
+		  
+		  
+	  }
+		
+		
+		
+	}
+
+}
+
+		
