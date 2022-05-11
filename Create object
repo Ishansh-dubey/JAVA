@@ -1,0 +1,14 @@
+package JavaCode;
+
+
+public class JavaCode{
+	public  JavaCode (String name) {
+		System.out.println(name);
+	}
+	
+	public static void main (String []args) {
+		
+		JavaCode myPuppy = new JavaCode ("tommy");
+	}
+	
+}
